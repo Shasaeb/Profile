@@ -1,70 +1,16 @@
-@import "compass/css3";
-
 body {
   font-family: Roboto, sans-serif;
-  background-color: #340468;
-    height: 100vh;
-    margin: 0;
-    overflow: hidden;
-    perspective: 3.125vmin;
-
+  background:
+linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
+linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,
+linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px,
+linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,
+linear-gradient(90deg, #1b1b1b 10px, transparent 10px),
+linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
+background-color: #131313;
+background-size: 20px 20px;
 color:#990000
 }
-body::after {
-  background-color: #340468;
-  border-radius: 50%;
-  box-shadow: 0 0 2.5vmin 2.5vmin #340468;
-  content: "";
-  height: 2.5vmin;
-  left: 50%;
-  position: absolute;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  width: 2.5vmin;
-}
-
-// Polygon -----------------------------
-
-.polygon {
-  animation: 4s linear infinite polygon;
-  left: 50%;
-  position: absolute;
-  top: 50%;
-  transform-style: preserve-3d;
-  transform: rotatex(90deg) rotatey(0) translatey(-25vmin);
-}
-
-@keyframes polygon {
-  100% {
-    transform: rotatex(90deg) rotatey(360deg) translatey(0);
-  }
-}
-
-// Side --------------------------------
-
-$n: 16; // number of sides
-$r: 25vmin; // inradius (apothem)
-$a: 2 * $r * tan(180deg / $n); // side length
-
-.side {
-  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/231848/fractal-fire-sky-seamless-background.jpg);
-  background-size: ($n * $a) 25%;
-  filter: hue-rotate(-10deg);
-  height: 100vmin;
-  position: absolute;
-  transform-origin: 0;
-  width: calc(#{$a} + 1px);
-
-  @for $i from 1 through $n {
-    &:nth-child(#{$i}) {
-      background-position: ($a * $i * -1) 0;
-      transform: rotatey(360deg / $n * $i) translate3d(-50%, -50%, $r);
-    }
-  }
-}
-
-
-
 p {
 font-weight: 900;
 
