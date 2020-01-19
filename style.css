@@ -10,6 +10,8 @@ linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transpar
 background-color: #131313;
 background-size: 20px 20px;
 color:#990000
+
+font-weight: 300;
 }
 
 header {
@@ -115,11 +117,9 @@ footer .col-sm-2 {
 footer .col-sm-8 {
   display: flex;
   justify-content: flex-end;
+  font-weight:
 }
 
 footer ul {
   list-style: none;
-}
-.container {
-  font-weight: 300;
 }
