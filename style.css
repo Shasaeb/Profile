@@ -120,3 +120,6 @@ footer .col-sm-8 {
 footer ul {
   list-style: none;
 }
+.container {
+  font-weight: 300;
+}
