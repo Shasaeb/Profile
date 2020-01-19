@@ -15,7 +15,12 @@ p {
 font-weight: 900;
 
 }
-
+ul {
+  font-weight:900;
+}
+li{
+  font-weight:900;
+}
 header {
   padding: 20px 0;
 }
