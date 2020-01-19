@@ -9,6 +9,7 @@ linear-gradient(90deg, #1b1b1b 10px, transparent 10px),
 linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
 background-color: #131313;
 background-size: 20px 20px;
+color:#990000
 }
 
 header {
@@ -24,6 +25,7 @@ footer .row {
 h1 {
   font-weight: 700;
   margin: 0;
+  color:#990000;
 }
 
 nav {
