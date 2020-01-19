@@ -1,6 +1,14 @@
 body {
   font-family: Roboto, sans-serif;
-  background-image: url('https://s3.amazonaws.com/codecademy-content/courses/learn-css-selectors-visual-rules/hypnotize_bg.png');
+  background:
+linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
+linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,
+linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px,
+linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,
+linear-gradient(90deg, #1b1b1b 10px, transparent 10px),
+linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
+background-color: #131313;
+background-size: 20px 20px;
 }
 
 header {
@@ -25,13 +33,13 @@ nav {
 
 a {
   padding: 0 20px;
-  margin: 0;
+  margin: 10;
 }
 
 .jumbotron {
   display: flex;
   align-items: center;
-  background-image: url('https://images.unsplash.com/photo-1537557209696-c595cc42018d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80');
+  background-image: url('/Pictures/HammerBackground.jpg');
   background-size: cover;
   color: #990000;
   height: 400px;
