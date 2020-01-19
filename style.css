@@ -36,6 +36,7 @@ nav {
 a {
   padding: 0 20px;
   margin: 10;
+  font-weight: 700;
 }
 
 .jumbotron {
@@ -63,6 +64,7 @@ a {
 section .row img {
   margin: 0 0 30px;
   width: 100%;
+  font-weight: 700;
 }
 
 .col-md-6 {
@@ -104,20 +106,23 @@ figure {
 footer {
   font-size: 12px;
   padding: 30px 0;
+  font-weight: 700;
 }
 footer .col-sm-2 {
 	display: flex;
 	flex-wrap: wrap;
 	margin: 0 0 30px;
   justify-content: left;
+  font-weight: 700;
 }
 
 footer .col-sm-8 {
   display: flex;
   justify-content: flex-end;
-  font-weight:
+  font-weight: 700;
 }
 
 footer ul {
   list-style: none;
+  font-weight: 700;
 }
