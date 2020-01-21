@@ -126,6 +126,24 @@ hr {
 }
 /* END HOME */
 
+/* Start Button  */
+
+
+.dwnld-cta {
+    border-radius: 15px 15px;
+    width: 100px;
+    line-height: 22px;
+}
+#dwnldLink {
+  align-content: center;
+}
+
+
+
+
+/* End Button */
+
+
 /* START WORK */
 .tm-padding-top-bottom-100 {
   padding-top: 100px;
@@ -296,7 +314,7 @@ hr {
 }
 /* END PORTFOLIO */
 
-/* START RESUME */
+/* START hg */
 .tm-red-text { color: #eb5424; }
 .tm-info-label {
   font-weight: bold;

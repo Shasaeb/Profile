@@ -4,9 +4,9 @@
 
 jQuery(document).ready(function($){
 
-	if ( $('.iso-box-wrapper').length > 0 ) { 
+	if ( $('.iso-box-wrapper').length > 0 ) {
 
-	    var $container 	= $('.iso-box-wrapper'), 
+	    var $container 	= $('.iso-box-wrapper'),
 	    	$imgs 		= $('.iso-box img');
 
 
@@ -30,19 +30,19 @@ jQuery(document).ready(function($){
 
 	        var $this = $(this), filterValue = $this.attr('data-filter');
 
-			$container.isotope({ 
+			$container.isotope({
 				filter: filterValue,
-				animationOptions: { 
-				    duration: 750, 
-				    easing: 'linear', 
-				    queue: false, 
-				}              	 
-			});	            
+				animationOptions: {
+				    duration: 750,
+				    easing: 'linear',
+				    queue: false,
+				}
+			});
 
-			// don't proceed if already selected 
+			// don't proceed if already selected
 
-			if ( $this.hasClass('selected') ) { 
-				return false; 
+			if ( $this.hasClass('selected') ) {
+				return false;
 			}
 
 			var filter_wrapper = $this.closest('.filter-wrapper');
@@ -50,7 +50,7 @@ jQuery(document).ready(function($){
 			$this.addClass('selected');
 
 	      return false;
-	    }); 
+	    });
 
 	}
 
@@ -64,7 +64,7 @@ jQuery(document).ready(function($){
         scrollOffset: 75, //Height of Navigation Bar
         filter: ':not(.external)',
         changeHash: true
-    }); 
+    });
 
     /* NAVIGATION VISIBLE ON SCROLL */
     mainNav();
@@ -90,3 +90,13 @@ jQuery(document).ready(function($){
     $('.navbar-collapse a').click(function(){
         $(".navbar-collapse").collapse('hide');
     });
+
+
+//Download Button
+const download = document.getElementById("fileRequest");
+
+download.addEventListener('click', request);
+
+function request() {
+    window.location = 'https://kristopherlafrance.tech/files/KLaFrance-Resume 01-06-2020.docx';
+}
