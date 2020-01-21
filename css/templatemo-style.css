@@ -401,9 +401,22 @@ hr {
 /* END SOCIAL */
 
 /* START CONTACT */
-.contact {
-  vertical-align: center;
+.tm-contact {
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 40px;
+  vertical-align: baseline;
+}
 
+.tm-contact p { padding-top: 40px; }
+
+
+/* END CONTACT */
+
+@media screen and (max-device-width: 1024px){
+  .templatemo-home {
+    background-attachment: scroll;
+  }
 }
 
 /* START MEDIA 980 */
