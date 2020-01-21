@@ -406,6 +406,7 @@ hr {
   padding-top: 80px;
   padding-bottom: 40px;
   vertical-align: baseline;
+  height: 100px;
 }
 
 .tm-contact p { padding-top: 40px; }
