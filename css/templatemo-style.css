@@ -22,7 +22,7 @@ p { line-height: 28px; }
 hr {
   border-color: #f2f2f2;
   width: 100px;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 .title {
   color: #303030;
@@ -348,7 +348,17 @@ hr {
   background-position: center center;
   padding-top: 60px;
   padding-bottom: 100px;
-  color: #00cc00;
+  
+}
+.aboutme{
+    background-color: #111111;
+    opacity: 0.75;
+    
+}
+.thisisme{
+    color: #00FF11;
+    font-weight: bolder;
+	opacity: 1 ;
 }
 /* END ABOUT */
 
@@ -410,6 +420,21 @@ hr {
 }
 
 .tm-contact p { padding-top: 40px; }
+label {
+    display: inline-block;
+    width:300px;
+    text-align: center;
+}
+textarea {
+    display: inline-block;
+    width:300px;
+    text-align: right;
+}
+input {
+    display: inline-block;
+    width:300px;
+    text-align: right;
+}
 
 
 /* END CONTACT */
